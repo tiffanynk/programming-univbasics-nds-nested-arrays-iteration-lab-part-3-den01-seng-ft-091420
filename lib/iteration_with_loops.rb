@@ -9,7 +9,7 @@ def join_nested_strings(src)
 
     while element_index < src[row_index].count do
 
-      if src[row_index][element_index].class == Strings
+      if src[row_index][element_index].class == String
         nested_strings += src[row_index][element_index] + ' '
       end
 
